@@ -1,6 +1,7 @@
-import type { NextConfig } from 'next'
+// @ts-check
+/** @type {import('next').NextConfig} */
 
-const nextConfig: NextConfig = {
+const nextConfig = {
   reactStrictMode: true,
   // External packages that need to be transpiled
   transpilePackages: [],
